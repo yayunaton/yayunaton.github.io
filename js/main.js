@@ -1,3 +1,6 @@
+// Mark JS as available so reveal animations only hide content when JS can show it
+document.documentElement.classList.add("js");
+
 // Footer year
 document.getElementById("year").textContent = new Date().getFullYear();
 
